@@ -6,10 +6,10 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="../WD-Seatwork3/assets/img/reborn logo.png" alt="Reborn logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Seatwork 3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=201511830/WD-Seatwork3)
 
 ---
 
@@ -76,7 +76,7 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -118,3 +118,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+| Base | Used as a model layout for home page | https://ph.pinterest.com/pin/672936369350036769/ |
+| dual hover img | used to add dual split image hover in header page | https://codepen.io/t_afif/pen/LYdqGKQ|
+|hover1|used as hover animation for header page 1 when hover it reveals the name of the menu|https://codepen.io/chriscoyier/pen/JgqgjN|

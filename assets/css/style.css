@@ -1,0 +1,140 @@
+/*  used to adjust body font add background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('../img/home\ page\ background.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+
+/* used to adjust headers */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* used to properly arrange the header list */
+nav ul {
+    list-style: none;
+    margin-right: 100px;
+    padding: 0;
+    display: flex;
+}
+
+/* used add a padding in to the header list */
+nav ul li {
+    margin-left: 20px;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 10px;
+}
+
+/* Change the color of all <a></a> and remove the underline */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* To center the h1 and the header-footer button */
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+/* Adjust h1 font size */
+.hero h1 {
+    font-size: 80px;
+    margin: 0;
+}
+
+/* Used to customized the header-footer button */
+.hero .btn1{
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+
+/* for header page button animation */
+.hero .contact-btn1:hover {
+    animation: swing 0.5s;
+    
+
+}
+
+/* for footer page button animation */
+.hero .contact-btn2:hover {
+    animation: drop-in 1000ms;
+    
+
+}
+
+/* Used to seperate the head titel and header-footer button  */
+.hero a {float: left;}
+
+
+/* Animation for Header page button */
+@keyframes swing {
+    20% { transform: rotate3d(0, 0, 1, 15deg); }
+    40% { transform: rotate3d(0, 0, 1, -10deg); }
+    60% { transform: rotate3d(0, 0, 1, 5deg); }
+    80% { transform: rotate3d(0, 0, 1, -5deg); }
+    100% { transform: rotate3d(0, 0, 1, 0deg); }
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Animation for Footer page button*/
+@keyframes drop-in {
+    from {
+      transform:
+        rotate(-500deg) translateY(-100%);
+      opacity: 0;
+      background-color: red;
+    }
+    to {
+      transform:
+        rotate(0deg) translateY(0%);
+      opacity: 1;
+      background-color: yellow;
+    }
+  }
+
+
+
+/* to used the downloaded font */
+@font-face {
+    font-family: VongolaFont;
+    src: url(./Font/Extraornamentalno2-voRy.ttf);
+  }
+
+  /* used to adjust the downloaded font */
+.vongolaFont{
+    font-family: vongolaFont;
+    color: black;
+}
+
+/* added a black layout on the footer */
+footer {background-color: #000;
+height: 40px;
+width: 100%;}
